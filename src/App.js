@@ -7,9 +7,9 @@ import MyForm from './MyForm';
 function App() {
   return (
     <div className="App">
-    <Knap/>
     <Image/>
     <MyForm/>
+    <Knap/>
     </div>
 );
 }
