@@ -18,21 +18,11 @@ class MyForm extends React.Component {
     }
   }
 
-ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<MyForm />, document.getElementById('Form'));
-class MyHeader extends React.Component {
-    render() {
-        return (
-            <div id="opgave"> 
-            <h1 style = {{color: "black"}}> Opgave 1</h1>
-            <p>Her skal der stå en opgavebeskrivelse</p>
-            </div>
-        );
-    }
-}
+
 
 ReactDOM.render(<App/>, document.getElementById('root'));
-ReactDOM.render(<MyHeader/>, document.getElementById('opgave'));
+ReactDOM.render(<MyForm />, document.getElementById('Form'));
+
 //ReactDOM.render(<MyHeader />, document.getElementById('root'));
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
