@@ -9,7 +9,7 @@ class MyForm extends React.Component {
       return (
         <form id= "Form">
           <h1>Opgave 1</h1>
-          <p>Skriv en historie, hvor du forestiller dig, hvad der er sket med personerne.</p>
+          <p>Giv kunstværket en titel, som fortæller hvad der sker på billedet</p>
           <input
             type="text"
           />

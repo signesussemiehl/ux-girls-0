@@ -4,7 +4,7 @@ import './Knap.css';
 function Knap() {
     
     function sayHello () {
-        alert ('Godt gået!');
+        alert ('Mega nice! 54 andre børn har givet en lignende titel til dette billede.');
     }
 
     return (

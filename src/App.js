@@ -9,7 +9,7 @@ function App() {
     <div className="App">
     <Image/>
     <MyForm/>
-    <Knap/>
+    <p><Knap/></p>
     </div>
 );
 }
