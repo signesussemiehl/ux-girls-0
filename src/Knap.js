@@ -9,7 +9,7 @@ function Knap() {
 
     return (
         <button onClick ={sayHello}>
-            Choose this image
+            Afslut opgaven
         </button>
     );
 }
