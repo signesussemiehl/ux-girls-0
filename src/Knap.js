@@ -4,7 +4,7 @@ import './Knap.css';
 function Knap() {
     
     function sayHello () {
-        alert ('Hello');
+        alert ('Godt gået!');
     }
 
     return (
