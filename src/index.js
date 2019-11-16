@@ -19,7 +19,6 @@ class MyForm extends React.Component {
   }
 
 
-
 ReactDOM.render(<App/>, document.getElementById('root'));
 ReactDOM.render(<MyForm />, document.getElementById('Form'));
 

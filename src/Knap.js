@@ -1,5 +1,34 @@
 import React from 'react';
 import './Knap.css';
+import { Redirect } from 'react-router-dom'
+
+class Knap extends React.Component {
+  state = {
+    redirect: false
+  }
+  setRedirect = () => {
+    this.setState({
+      redirect: true
+    })
+  }
+  renderRedirect = () => {
+    if (this.state.redirect) {
+      return <Redirect to='./Opgave2.js' />
+    }
+  }
+  render () {
+    return (
+       <div id= "Redirect">
+        {this.renderRedirect()}
+        <button onClick={this.setRedirect}>Næste opgave</button>
+       </div>
+    )
+  }
+}
+
+/*
+
+Det her er vores gamle knap
 
 function Knap() {
     
@@ -13,5 +42,5 @@ function Knap() {
         </button>
     );
 }
-
+*/
 export default Knap;
