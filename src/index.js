@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-/*class MyForm extends React.Component {
+/* Nedenstående er udkommenteret, fordi vi ikke skal have det i index filen, men derimod i Myform filen. Så det er det nu.
+class MyForm extends React.Component {
     render() {
       return (
         <form id= "Form">
