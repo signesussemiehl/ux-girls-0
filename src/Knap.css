@@ -1,9 +1,8 @@
 .myBtn {
-    background-color: #555555;
-    /* Green */
-    border: 2px solid #4CAF50;
-    color: white;
-    padding: 16px 32px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    color: black;
+    padding: 8px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -16,6 +15,6 @@
 }
 
 .myBtn:hover {
-    background-color: #555555;
+    background-color: #000000;
     color: white;
 }
