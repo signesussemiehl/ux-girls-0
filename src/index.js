@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-class MyForm extends React.Component {
+/*class MyForm extends React.Component {
     render() {
       return (
         <form id= "Form">
@@ -18,10 +18,10 @@ class MyForm extends React.Component {
       );
     }
   }
-
+*/
 
 ReactDOM.render(<App/>, document.getElementById('root'));
-ReactDOM.render(<MyForm />, document.getElementById('Form'));
+//ReactDOM.render(<MyForm />, document.getElementById('Form'));
 
 //ReactDOM.render(<MyHeader />, document.getElementById('root'));
 // If you want your app to work offline and load faster, you can change

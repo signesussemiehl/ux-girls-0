@@ -21,21 +21,19 @@ function App() {
     <Image/>
     <Switch>
       <Route path="/opgave2">
-        
         <SecondForm />
         <p><AfslutKnap/></p>
       </Route>
+     
+      <Route path="/finish">
+        <MyFinish />
+      </Route>
+
       <Route path="/">
-      
         <FormName />
         <p><Knap/></p>
       </Route>
 
-      <Route path="/Finish">
-        
-        <MyFinish />
-        <p><AfslutKnap/></p>
-      </Route>
     </Switch>
     </div>
     </Router>

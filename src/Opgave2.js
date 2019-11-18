@@ -1,11 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
 import './Opgave2.js';
-import AfslutKnap from './AfslutKnap.js';
-import App from './App';
-import FormName from './MyForm.js';
-import * as serviceWorker from './serviceWorker';
+
 
 class SecondForm extends React.Component {
     render() {

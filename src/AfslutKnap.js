@@ -12,7 +12,7 @@ class AfslutKnap extends React.Component {
   }
   renderRedirect = () => {
     if (this.state.redirect) {
-      return <Redirect to='/Finish' /> //Det er her jeg har ændret noget, så den skulle redirecte til Opgave2, men det gør den ikke.
+      return <Redirect to='/finish' /> //Det er her jeg har ændret noget, så den skulle redirecte til Opgave2, men det gør den ikke.
     }
   }
   render () {
