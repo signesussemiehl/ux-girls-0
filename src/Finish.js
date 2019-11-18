@@ -5,7 +5,9 @@ class MyFinish extends React.Component {
     return (
     <div>
     <h1>Godt Klaret!</h1>
-    <p>Du er færdig med opgaverne :-D</p> 
+    <h2>Du er færdig med opgaverne :-D</h2> 
+<br/>
+<br/>
 </div>
 );
   }
