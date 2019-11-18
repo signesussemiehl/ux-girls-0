@@ -14,18 +14,23 @@ class SecondForm extends React.Component {
           <p>Vælg 3 ord der bedst beskriver billedet</p>
           <input
             type="text"
+            style={{width:'250px', height:'20px'}}
           />
           <br/>
           <br/>
           <input
             type="text"
+            style={{width:'250px', height:'20px'}}
           />
           <br/>
           <br/>
           <input
             type="text"
+            style={{width:'250px', height:'20px'}}
           />
+          <br/>
         </form>
+       
       );
     }
   }
