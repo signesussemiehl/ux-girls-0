@@ -11,7 +11,8 @@ class MyForm extends React.Component {
           <h1>Opgave 1</h1>
           <p>Giv kunstværket en titel, som fortæller hvad der sker på billedet</p>
           <input
-            type="text"
+            type="text" 
+            style={{width:'450px', height:'30px'}}
           />
         </form>
       );
